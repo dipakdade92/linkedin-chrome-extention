@@ -18,5 +18,20 @@ This is a Chrome extension built using React that automates sending connection r
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/linkedin-connection-automation.git
+git clone  https://github.com/dipakdade92/linkedin-chrome-extention.git
 cd linkedin-connection-automation
+npm install
+npm run build
+```
+
+## need to follow these steps to run this extension into chrome browser
+
+Load Your Extension in Chrome:
+- Open Chrome and go to chrome://extensions/.
+- Enable "Developer mode" (toggle in the upper right corner).
+- Click on "Load unpacked" and select the build folder of your React app.
+Test Your Extension:
+- Open LinkedIn and navigate to the "My Network" tab.
+- Click on your extension icon to open the popup.
+- Click the "Start Sending Requests" button to initiate the connection requests.
+- Click the "Stop Sending Requests" button to halt the process.
